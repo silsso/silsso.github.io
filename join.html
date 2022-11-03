@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="./css/basic.css">
+    <style>
+        body{
+            background-image: url("images/univ01.jpg");
+            background-size: 400px;
+        }
+        header{
+            position: absolute;
+            width: 320px;
+            height: 520px;
+            margin-top: -260px;
+            margin-left: -160px;
+            left: 50%;
+            top: 50%;
+            background-color: rgb(68, 67, 65);
+            text-align: center;
+        }
+        header>a>img{
+            width: 320px;
+            height: 65px;
+        }
+        .box1{
+            color: aliceblue;
+            font-weight: 320;
+            padding-top: 20px;
+            margin-bottom: 20px;
+        }
+        .box1 input{
+            height: 25px;
+            margin-top: 10px;
+            width: 200px;
+        }
+        .box1-1{
+            margin-left: 58px;
+            text-align: left;
+            font-size: 0.6rem;
+        }
+        .box1-1 input{
+            margin-top: 10px;
+            width: 200px;
+        }
+        .box2{
+            color: aliceblue;
+            font-weight: 400;
+            padding-top: 0px;
+            margin-bottom: 0px;
+        }
+        .box2 input{
+            height: 25px;
+            margin-bottom: 20px;
+            width: 200px;
+        }
+        .box3{
+            width: 205px;
+            height: 50px;
+            /*background-color: brown;*/
+            margin-left: 58px;
+            overflow: hidden;
+        }
+        .box3 input{
+            height: 25px;
+            float: left;
+            width: 130px;
+            
+        }
+        .box3-1{
+            color: aliceblue;
+            font-size: 0.7rem;
+            float: left;
+            text-align: left;
+        }
+        .box3 button{
+            height: 29px;
+            width: 50px;
+            /*background-color: blanchedalmond;*/
+            float: right;
+        }
+        .box4{
+            margin-top: 0px;
+        }
+        .box4-1>button{
+            height: 30px;
+            margin-top: 10px;
+            width: 208px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./main.html"><img src="./images/moonandsun01.jpg"></a>
+        
+        <div class="box1">
+            <div class="box1-1">
+            <label for ="user_id"></label><input type="text" name="user_id" id="user_id" class="input_text" placeholder="아이디" required>
+            <br>
+            아이디 중복 확인을 하십시오.
+            </div>
+            <div class="box1-2">
+            <input type="button" name="id_btn" id="id_btn" class="btn" value="아이디 중복확인">
+            </div>
+        </div>
+        <div class="box2">
+        <label for="pwd"></label><input type="password" name = "pwd" id ="pwd" class = "input_text" placeholder="비밀번호" required>
+        <label for="pwd"></label><input type="password" name = "pwd" id ="pwd" class = "input_text" placeholder="비밀번호 확인" required>
+        <input type="text" name="phone1" id="phone1" class="p1" placeholder="핸드폰 번호">
+        <label for="email"><input type="email" name = "email" id ="email" class = "email" placeholder="이메일" required></label>
+        </div>
+        <div class="box3">
+            <div class="box3-1">
+        </label><input type="confirm" name = "confirm" id ="confirm" class = "confirm" placeholder="인증번호" required>
+        <br>
+        휴대폰 인증을 하세요.
+        </div>
+        <div class="3-2">
+            <button>확인</button>
+        </div>
+        </div>
+        <div class="box4">
+            <div class="box4-1">
+                <button>가입하기</button>
+            </div>
+        
+        
+    </header>
+    
+    
+</body>
+</html>

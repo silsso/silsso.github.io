@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>지도</title>
+    <link rel="stylesheet" href="./css/basic.css">
+    <style>
+        body{
+            background-image: url("images/univ01.jpg");
+            background-size: 400px;
+        }
+        header{
+            margin-top: 20px;
+            width: 960px;
+            height: 80px;
+            /*background-color: blue;*/
+            overflow: hidden;
+        }
+        .l1{
+            width: 320px;
+            height: 80px;
+            /*background-color: brown;*/
+            overflow: hidden;
+            float: left;
+        }
+        .l1 img{
+            margin-top: 10px;
+            width: 60px;
+            height: 60px;
+            float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .l1>a{
+            margin-top: 10px;
+            color: aliceblue;
+            font-family: 'Nanum Pen Script';
+            font-size: 30px;
+            line-height: 80px;
+        }
+        .m1{
+            width: 320px;
+            height: 80px;
+            float: left;
+        }
+        .r1{
+            width: 320px;
+            height: 80px;
+            float: right;
+            /*background-color: rgb(212, 136, 136);*/
+            text-align: right;
+        }
+        .r1>a{
+            margin-left: 20px;
+            color: aliceblue;
+            font-size: 0.8rem;
+        }
+        nav{
+            width: 960px;
+            height: 30px;
+            /*background-color: gray;*/
+            overflow: hidden;
+        }
+        .t1{
+            overflow: hidden;
+            float: right;
+        }
+        .t1>input{
+            height: 20px;
+        }
+        .t1-1{
+            float: right;
+            margin-top: 2px;
+            height: 25px;
+            margin-left: 5px;
+        }
+        aside{
+            margin-top: 10px;
+            width: 960px;
+            height: 550px;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            /*background-image: url("images/univ02.jpg");*/
+            /*background-size: 950px;*/
+            overflow: hidden;
+        }
+        .t2{
+            width: 960px;
+            height: 450px;
+            /*background-color: antiquewhite;*/
+            color: aliceblue;
+        }
+        .t2 li{
+            margin-top: 10px;
+            margin-left: 20px;
+            font-weight: 700;
+        }
+        .t2 iframe{
+            margin-top: 20px;
+            width: 960px;
+        }
+        
+        footer{
+            width: 960px;
+            margin-top: 150px;
+            margin-bottom: 20px;
+            color: aliceblue;
+            }
+            .footer_nav{
+                width: 960px;  
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border-top: 2px solid rgb(190, 190, 190);
+                border-bottom: 2px solid rgb(190, 190, 190);
+                margin-bottom: 10px;
+            }
+            .footer_nav>a{
+                display: inline-block ;
+                padding: 0px 20px;
+                font-size: 0.8rem;  
+                color: aliceblue;
+            }
+            .footer_nav> a:hover{   
+                text-decoration: none;
+            }
+            .addr{
+                width: 960px;
+            }
+            .addr li{
+                margin-left: 50px; 
+                height: 20px;
+                line-height: 20px;
+                font-size: 0.8rem;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="l1">
+            <a href="./main.html"><img src="./images/sun03_1.png"></a> 
+            <a href="./main.html">Solarsystem</a>
+        </div>
+        <div class="m1"></div>
+        <div class="r1">
+            <a href="./login.html">로그인</a>
+            <a href="./join.html">회원가입</a>
+            <a href="#">사이트맵</a>
+        </div>
+    </header>
+    <nav>
+            <div class="t1">
+                <input type="text" name="search" id="search">
+                <div class="t1-1"><button>검색</button></div> 
+            <div>
+    </nav>
+    <aside>
+        <div class="t2">
+            <ul><li>◑ 오시는길</li> </ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202582.5811611265!2d126.73473392022339!3d37.499595693284725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca512b1b5e77b%3A0x90048774d24a2a4f!2z66mA7Yuw7Lqg7Y287IqkIOyEoOumiQ!5e0!3m2!1sko!2skr!4v1667357126790!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="r2"></div>
+        </div>
+    </aside>
+    <footer>
+        <div class = "footer_nav">
+            <a href="#"><b>정보공개알림</b></a>|
+            <a href="#"><b>개인정보처리방침</b></a>|
+            <a href="#"><b>이용서비스현황</b></a>|
+            <a href="#"><b>이용규정</b></a>|
+            <a href="#"><b>이메일무단수집거부</b></a>|
+            <a href="#"><b>전화번호안내</b></a>|
+            <a href="./address.html"><b>오시는길</b></a>
+        </div>
+        <div class = "addr">
+            <ul>
+                <li>(우)xxxxx ㅇㅇ시 ㅇㅇ구 ㅇㅇ로 212 (ㅇㅇ동) 대표전화 : 02-1234-1234 | 팩스번호 : 02-1234-5678</li>
+                <li>Copyright&copy;2022 Solarsystem All Right Reserved</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

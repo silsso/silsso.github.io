@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="./css/basic.css">
+    <style>
+        body{
+            background-image: url("images/univ01.jpg");
+            background-size: 400px;
+            background-color: rgb(204, 129, 129);
+        }
+        header{
+            position: absolute;
+            width: 320px;
+            height: 300px;
+            top: 50%;
+            left: 50%;
+            margin-top: -150px;
+            margin-left: -160px;
+            background-color: rgb(68, 67, 65);
+            text-align: center;
+        }
+        header>a>img{
+            width: 320px;
+            height: 65px;
+        }
+        .box1{
+            color: aliceblue;
+            font-weight: 400;
+            padding-top: 20px;
+            margin-bottom: 10px;
+        }
+        .box1 input{
+            width: 200px;
+            height: 25px;
+        }
+        .box2{
+            color: aliceblue;
+            font-weight: 400;
+            padding-top: 10px;
+            margin-bottom: 10px;
+        }
+        .box2 input{
+            height: 25px;
+            width: 200px;
+        }
+        .box3>button{
+            margin-top: 20px;
+            width: 208px;
+            height: 30px;
+        }
+        .box4{
+            margin-top: 20px;
+            font-size: 0.75rem;
+            color: aliceblue;
+        }
+        .box4>a{
+            color: aliceblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./main.html"><img src="./images/moonandsun01.jpg"></a>
+        <div class="box1">
+        <label for ="user_id"></label><input type="text" name="user_id" id="user_id" class="input_text"  placeholder="아이디" required>
+        </div>
+        <div class="box2">
+        <label for="pwd"></label><input type="password" name = "pwd" id ="pwd" class = "input_text" placeholder="비밀번호" required>
+        </div>
+        <div class="box3">
+            <button>로그인</button>
+        </div>
+        <div class="box4">
+        <a href="./join.html">회원가입</a> |
+        <a href="#">아이디 찾기</a> |
+        <a href="#">비밀번호 찾기</a>
+        </div>
+    </header>
+    
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>태양계</title>
+    <link rel="stylesheet" href="./css/basic.css">
+    <style>
+        body{
+            background-image: url("images/univ01.jpg");
+            background-size: 400px;
+            
+        }
+        .mainbox{
+            width: 960px;
+            height: 600px;
+            margin-top: 100px;
+            /*background-color: antiquewhite;*/
+            text-align: center;
+        }
+        .mainbox img{
+            margin-top: 70px;
+            width: 400px;
+            height: 400px;
+        }
+        .mainbox img:hover{
+            margin-top: 70px;
+            width: 400px;
+            height: 400px;
+            
+        }
+        
+        li{
+            font-size: 40px;
+            font-family: 'Nanum Pen Script';
+            color: aliceblue;
+        }
+        .eorl{
+            margin-top: 10px;
+            
+            font-size: 25px;
+        }
+        .eorl>a{
+            color: aliceblue;
+        }
+        .eorl>a:hover{
+            color: yellow;
+            /*padding: 5px;*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class ="mainbox">
+        <a href="./main.html"><img src = "./images/sun03_1.png" onmouseover="this.src='./images/sun03_2.png'" onmouseout="this.src='./images/sun03_1.png'"></a>
+        <ul>
+            <li>Welcome to solarsystem</li>
+        </ul>
+        <div class = "eorl">
+                <a href="./main.html">【Enter】</a> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">【Leave】</a>
+        </div>
+    </div>
+</body>
+</html>

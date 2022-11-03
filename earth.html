@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>지구</title>
+    <link rel="stylesheet" href="./css/basic.css">
+    <style>
+        body{
+            background-image: url("images/univ01.jpg");
+            background-size: 400px;
+        }
+        header{
+            margin-top: 20px;
+            width: 960px;
+            height: 80px;
+            /*background-color: blue;*/
+            overflow: hidden;
+        }
+        .l1{
+            width: 320px;
+            height: 80px;
+            /*background-color: brown;*/
+            overflow: hidden;
+            float: left;
+        }
+        .l1 img{
+            margin-top: 10px;
+            width: 60px;
+            height: 60px;
+            float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .l1>a{
+            margin-top: 10px;
+            color: aliceblue;
+            font-family: 'Nanum Pen Script';
+            font-size: 30px;
+            line-height: 80px;
+        }
+        .m1{
+            width: 320px;
+            height: 80px;
+            float: left;
+        }
+        .r1{
+            width: 320px;
+            height: 80px;
+            float: right;
+            /*background-color: rgb(212, 136, 136);*/
+            text-align: right;
+        }
+        .r1>a{
+            margin-left: 20px;
+            color: aliceblue;
+            font-size: 0.8rem;
+        }
+        nav{
+            width: 960px;
+            height: 30px;
+            /*background-color: gray;*/
+            overflow: hidden;
+        }
+        .t1{
+            overflow: hidden;
+            float: right;
+        }
+        .t1>input{
+            height: 20px;
+        }
+        .t1-1{
+            float: right;
+            margin-top: 2px;
+            height: 25px;
+            margin-left: 5px;
+        }
+        aside{
+            margin-top: 10px;
+            width: 960px;
+            height: 500px;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            /*background-image: url("images/univ02.jpg");*/
+            /*background-size: 950px;*/
+            overflow: hidden;
+        }
+        .t2{
+            width: 960px;
+            height: 450px;
+            /*background-color: antiquewhite;*/
+            color: aliceblue;
+        }
+        .sun>img{
+            float: left;
+            width: 350px;
+            height: 350px;
+        }
+        .r2{
+            margin-top: 50px;
+            width: 500px;
+            height: 300px;
+            /*background-color: blue;*/
+            float: left;
+            line-height: 50px;
+            font-weight: 700;
+        }
+        .r2 h1{
+            margin-bottom: 10px;
+        }
+        footer{
+            width: 960px;
+            margin-top: 150px;
+            margin-bottom: 20px;
+            color: aliceblue;
+            }
+            .footer_nav{
+                width: 960px;  
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border-top: 2px solid rgb(190, 190, 190);
+                border-bottom: 2px solid rgb(190, 190, 190);
+                margin-bottom: 10px;
+            }
+            .footer_nav>a{
+                display: inline-block ;
+                padding: 0px 20px;
+                font-size: 0.8rem;  
+                color: aliceblue;
+            }
+            .footer_nav> a:hover{   
+                text-decoration: none;
+            }
+            .addr{
+                width: 960px;
+            }
+            .addr li{
+                margin-left: 50px; 
+                height: 20px;
+                line-height: 20px;
+                font-size: 0.8rem;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="l1">
+            <a href="./main.html"><img src="./images/sun03_1.png"></a> 
+            <a href="./main.html">Solarsystem</a>
+        </div>
+        <div class="m1"></div>
+        <div class="r1">
+            <a href="./login.html">로그인</a>
+            <a href="./join.html">회원가입</a>
+            <a href="#">사이트맵</a>
+        </div>
+    </header>
+    <nav>
+        <div class="t1">
+        <input type="text" name="search" id="search">
+        <div class="t1-1"><button>검색</button></div> 
+        <div>
+    </nav>
+    <aside>
+        <div class="t2">
+            <div class="sun"><img src="./images/earth01.png"></div>
+            <div class="r2">
+                <ul>
+                    <li><h1>지구</h1></li>
+                    <li>태양으로 부터의 거리 : 1 AU</li>
+                    <li>타입 : 행성</li>
+                    <li>자전주기 : 23시간 56분</li>
+                    <li>공전주기 : 365일</li>
+                    <li>지름 : 12,742Km</li>
+                    <li>위성 갯수 : 1개</li>
+                    <li>특이사항 : 현재까지 알려진 태양계 내의 유일한 생명체 거주가능구역</li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <div class = "footer_nav">
+            <a href="#"><b>정보공개알림</b></a>|
+            <a href="#"><b>개인정보처리방침</b></a>|
+            <a href="#"><b>이용서비스현황</b></a>|
+            <a href="#"><b>이용규정</b></a>|
+            <a href="#"><b>이메일무단수집거부</b></a>|
+            <a href="#"><b>전화번호안내</b></a>|
+            <a href="./address.html"><b>오시는길</b></a>
+        </div>
+        <div class = "addr">
+            <ul>
+                <li>(우)xxxxx ㅇㅇ시 ㅇㅇ구 ㅇㅇ로 212 (ㅇㅇ동) 대표전화 : 02-1234-1234 | 팩스번호 : 02-1234-5678</li>
+                <li>Copyright&copy;2022 Solarsystem All Right Reserved</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>태양계</title>
+    <link rel="stylesheet" href="./css/basic.css">
+    <style>
+        body{
+            background-image: url("images/univ01.jpg");
+            background-size: 400px;
+        }
+        header{
+            margin-top: 20px;
+            width: 960px;
+            height: 80px;
+            /*background-color: blue;*/
+            overflow: hidden;
+        }
+        .l1{
+            width: 320px;
+            height: 80px;
+            /*background-color: brown;*/
+            overflow: hidden;
+            float: left;
+        }
+        .l1 img{
+            margin-top: 10px;
+            width: 60px;
+            height: 60px;
+            float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .l1>a{
+            margin-top: 10px;
+            color: aliceblue;
+            font-family: 'Nanum Pen Script';
+            font-size: 30px;
+            line-height: 80px;
+        }
+        .m1{
+            width: 320px;
+            height: 80px;
+            float: left;
+        }
+        .r1{
+            width: 320px;
+            height: 80px;
+            float: right;
+            /*background-color: rgb(212, 136, 136);*/
+            text-align: right;
+        }
+        .r1>a{
+            margin-left: 20px;
+            color: aliceblue;
+            font-size: 0.8rem;
+        }
+        nav{
+            width: 960px;
+            height: 30px;
+            /*background-color: gray;*/
+            overflow: hidden;
+        }
+        .t1{
+            overflow: hidden;
+            float: right;
+        }
+        .t1>input{
+            height: 20px;
+        }
+        .t1-1{
+            float: right;
+            margin-top: 2px;
+            height: 25px;
+            margin-left: 5px;
+        }
+        aside{
+            margin-top: 10px;
+            width: 960px;
+            height: 500px;
+            border: 1px solid white;
+            background-image: url("images/univ02.jpg");
+            background-size: 950px;
+            overflow: hidden;
+        }
+        .a1>a>img{
+            float: left;
+            width: 200px;
+            height: 500px;
+        }
+        .a2>a>img{
+            margin-top: 240px;
+            float: left;
+            width: 30px;
+            height: 30px;
+        }
+        .a3>a>img{
+            margin-top: 220px;
+            float: left;
+            width: 70px;
+            height: 70px;
+        }
+        .a4>a>img{
+            margin-top: 218px;
+            float: left;
+            width: 75px;
+            height: 75px;
+        }
+        .a5>a>img{
+            margin-top: 235px;
+            float: left;
+            width: 40px;
+            height: 40px;
+        }
+        .a6>a>img{
+            margin-top: 195px;
+            float: left;
+            width: 120px;
+            height: 120px;
+            /*background-color: aqua;*/
+        }
+        .a7>a>img{
+            margin-top: 200px;
+            float: left;
+            width: 180px;
+            height: 120px;
+        }
+        .a8>a>img{
+            margin-top: 220px;
+            float: left;
+            width: 90px;
+            height: 90px;
+        }
+        .a9>a>img{
+            margin-top: 220px;
+            float: left;
+            width: 90px;
+            height: 90px;
+        }
+        footer{
+            width: 960px;
+            margin-top: 150px;
+            margin-bottom: 20px;
+            color: aliceblue;
+            }
+            .footer_nav{
+                width: 960px;  
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border-top: 2px solid rgb(190, 190, 190);
+                border-bottom: 2px solid rgb(190, 190, 190);
+                margin-bottom: 10px;
+            }
+            .footer_nav>a{
+                display: inline-block ;
+                padding: 0px 20px;
+                font-size: 0.8rem;  
+                color: aliceblue;
+            }
+            .footer_nav> a:hover{   
+                text-decoration: none;
+            }
+            .addr{
+                width: 960px;
+            }
+            .addr li{
+                margin-left: 50px; 
+                height: 20px;
+                line-height: 20px;
+                font-size: 0.8rem;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="l1">
+            <a href="./main.html"><img src="./images/sun03_1.png"></a> 
+            <a href="./main.html">Solarsystem</a>
+        </div>
+        <div class="m1"></div>
+        <div class="r1">
+            <a href="./login.html">로그인</a>
+            <a href="./join.html">회원가입</a>
+            <a href="#">사이트맵</a>
+        </div>
+    </header>
+    <nav>
+        <div class="t1">
+        <input type="text" name="search" id="search">
+        <div class="t1-1"><button>검색</button></div> 
+        <div>
+    </nav>
+    <aside>
+        <div class="t2">
+            <div class="a1"><a href="./sun.html"><img src="./images/sun02_1.png" onmouseover="this.src='./images/sun02_2.png'" onmouseout="this.src='./images/sun02_1.png'"></a></div>
+            <div class="a2"><a href="./mercury.html"><img src="./images/mercury01.png" onmouseover="this.src='./images/mercury01_1.png'" onmouseout="this.src='./images/mercury01.png'"></a></div>
+            <div class="a3"><a href="./venus.html"><img src="./images/venus01.png" onmouseover="this.src='./images/venus01_1.png'" onmouseout="this.src='./images/venus01.png'"></a></div>
+            <div class="a4"><a href="./earth.html"><img src="./images/earth01.png" onmouseover="this.src='./images/earth01_1.png'" onmouseout="this.src='./images/earth01.png'"></a></div>
+            <div class="a5"><a href="./mars.html"><img src="./images/mars01.png" onmouseover="this.src='./images/mars01_1.png'" onmouseout="this.src='./images/mars01.png'"></a></div>
+            <div class="a6"><a href="./jupiter.html"><img src="./images/jupiter01.png" onmouseover="this.src='./images/jupiter01_1.png'" onmouseout="this.src='./images/jupiter01.png'"></a></div>
+            <div class="a7"><a href="./saturn.html"><img src="./images/saturn01.png" onmouseover="this.src='./images/saturn01_1.png'" onmouseout="this.src='./images/saturn01.png'"></a></div>
+            <div class="a8"><a href="./uranus.html"><img src="./images/uranus01.png" onmouseover="this.src='./images/uranus01_1.png'" onmouseout="this.src='./images/uranus01.png'"></a></div>
+            <div class="a9"><a href="./neptune.html"><img src="./images/neptune01.png" onmouseover="this.src='./images/neptune01_1.png'" onmouseout="this.src='./images/neptune01.png'"></a></div>
+        </div>
+    </aside>
+    <footer>
+        <div class = "footer_nav">
+            <a href="#"><b>정보공개알림</b></a>|
+            <a href="#"><b>개인정보처리방침</b></a>|
+            <a href="#"><b>이용서비스현황</b></a>|
+            <a href="#"><b>이용규정</b></a>|
+            <a href="#"><b>이메일무단수집거부</b></a>|
+            <a href="#"><b>전화번호안내</b></a>|
+            <a href="./address.html"><b>오시는길</b></a>
+        </div>
+        <div class = "addr">
+            <ul>
+                <li>(우)xxxxx ㅇㅇ시 ㅇㅇ구 ㅇㅇ로 212 (ㅇㅇ동) 대표전화 : 02-1234-1234 | 팩스번호 : 02-1234-5678</li>
+                <li>Copyright&copy;2022 Solarsystem All Right Reserved</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
